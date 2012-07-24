@@ -108,9 +108,9 @@ public class gDialog {
 
 
 	if( i == JOptionPane.YES_OPTION || 
-	    i == JOPtionPane.OK_OPTION) {
+	    i == JOptionPane.OK_OPTION) {
 	    return 1;
-	} else if ( i == JOptionPane.NO_OPTION)
+	} else if ( i == JOptionPane.NO_OPTION) {
 	    return 0;
 	} else if ( i == JOptionPane.CANCEL_OPTION) {
 	    return -1;

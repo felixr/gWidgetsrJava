@@ -3,10 +3,12 @@
 
 
 # linux box
-export CLASSPATH=/home/verzani/R/lib/R/library/rJava/jri/JRI.jar:/home/verzani/R/lib/R/library/JavaGD/java/javaGD.jar:./
+# export CLASSPATH=/home/verzani/R/lib/R/library/rJava/jri/JRI.jar:/home/verzani/R/lib/R/library/JavaGD/java/javaGD.jar:./
 # mac
-#export CLASSPATH=/Library/Frameworks/R.framework/Resources/library/rJava/libs/i386/:/Library/Frameworks/R.framework/Resources/library/JavaGD/java/javaGD.jar:/.
-JAVAC = javac -Xlint
+export CLASSPATH=/Library/Frameworks/R.framework/Resources/library/rJava/libs/i386/:/Library/Frameworks/R.framework/Resources/library/JavaGD/java/javaGD.jar:/.
+
+export CLASSPATH=/Users/felix/Library/R/2.15/library/JavaGD/java/javaGD.jar:/Users/felix/Library/R/2.15/library/rJava/jri/JRI.jar:.
+JAVAC = javac
 CLASS_FILES = gWidgetsrJava/ActionDispatcher.class \
 	gWidgetsrJava/TableSorter.class gWidgetsrJava/gDialog.class \
 	gWidgetsrJava/gExpandGroup.class gWidgetsrJava/gRadio.class \
